@@ -73,7 +73,8 @@ public class App extends MultiDexApplication {
         putDefault(HawkConfig.PLAY_TYPE, 1);      // Player   0=系统, 1=IJK, 2=Exo
         putDefault(HawkConfig.IJK_CODEC, "硬解码");// IJK Render 软解码, 硬解码
         putDefault(HawkConfig.SEARCH_VIEW, 2);      // 搜索   1=图标, 2=列表
-        putDefault(HawkConfig.HOME_NUM, 1);       // History Number
+        putDefault(HawkConfig.HOME_NUM, 1);       // 历史条数 0=20，1=40,2=60,3=80,4=100
+        putDefault(HawkConfig.HOME_SHOW, 0)       //数据源显示 
 //        putDefault(HawkConfig.DOH_URL, 2);        // DNS
 
     }
